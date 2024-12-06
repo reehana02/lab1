@@ -23,7 +23,7 @@ public class task_2_14102024 {public static void main(String[] args){
     long largeDeposit = 600000000L;
     long remainingBalance = largeDeposit - 10000L;
     int truncateBalance = (int)remainingBalance;
-    System.out.println("The Truncated Balance Amount is " + truncateBalance );
+    System.out.println("The Truncated Balance Amount is "+truncateBalance );
 
 }
 }

@@ -22,6 +22,6 @@ public class task_1_14102024 {
         double finalPrice = cost - discount;
         // Cast the finalPrice (double) to an integer for final receipt or reporting
         int roundedPrice = (int) finalPrice;  // explicit casting to int
-
+        System.out.println(roundedPrice);
     }
 }
